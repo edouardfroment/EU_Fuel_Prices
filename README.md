@@ -183,10 +183,5 @@ EU-Fuel-Prices/
 │   └── Taxes
 ├── screenshots/
 │   └── powerbi/           # Power BI dashboard screenshots
-│       ├── page1_sp95_prices.png
-│       ├── page2_diesel_prices.png
-│       ├── page3_taxes.png
-│       ├── page4_country_view.png
-│       └── page5_overall_ranking.png
 │   └── fabric/            # Microsoft Fabric screenshots
 └── README.md
