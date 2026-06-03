@@ -177,7 +177,7 @@ Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable 
 ## 📁 Project Structure
 
 ```bash
-EU-Fuel-Prices/
+EU_Fuel_Prices/
 ├── notebooks/             # Python notebooks for data extraction
 │   ├── EU_Fuel_Price_ETL
 │   └── Taxes
