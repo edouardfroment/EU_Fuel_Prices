@@ -189,4 +189,4 @@ EU-Fuel-Prices/
 │       ├── page4_country_view.png
 │       └── page5_overall_ranking.png
 │   └── fabric/            # Microsoft Fabric screenshots
-└── README.md              # This file
+└── README.md
