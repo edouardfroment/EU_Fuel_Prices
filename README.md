@@ -190,7 +190,7 @@ EU_Fuel_Prices/
 
 ---
 
-## 🏆 Overall Ranking — June 1st, 2026
+## 🏆 Overall Ranking - June 1st, 2026
 
 ### ⛽ EU Petrol SP95 Prices (€/L)
 
