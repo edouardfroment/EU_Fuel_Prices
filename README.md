@@ -179,8 +179,8 @@ Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable 
 ```bash
 EU-Fuel-Prices/
 ├── notebooks/             # Python notebooks for data extraction
-│   ├── extract_sp95_data.py
-│   └── extract_diesel_data.py
+│   ├── EU_Fuel_Price_ETL
+│   └── Taxes
 ├── docs/                  # Documentation and screenshots
 │   └── powerbi/           # Power BI dashboard screenshots
 │       ├── page1_sp95_prices.png
@@ -188,5 +188,5 @@ EU-Fuel-Prices/
 │       ├── page3_taxes.png
 │       ├── page4_country_view.png
 │       └── page5_overall_ranking.png
-├── images/                # Additional images
+├── fabric/                # Fabric screenshots
 └── README.md              # This file
