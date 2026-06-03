@@ -87,7 +87,8 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
 3. **Automation**:
    - **Weekly pipeline** that automatically runs both Python scripts
    - **Email notifications** sent upon successful completion
-![Automation](screenshots/fabric/Pipeline.png)
+
+![Automation](screenshots/fabric/Pipeline.png){: width="50%" }
 
 4. **Visualization**:
    - Power BI dashboard connected directly to Lakehouse tables
