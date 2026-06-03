@@ -188,5 +188,5 @@ EU-Fuel-Prices/
 │       ├── page3_taxes.png
 │       ├── page4_country_view.png
 │       └── page5_overall_ranking.png
-├── fabric/                # Fabric screenshots
+│   └── fabric/            # Microsoft Fabric documentation
 └── README.md              # This file
