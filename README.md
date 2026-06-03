@@ -170,7 +170,7 @@ The dashboard clearly visualizes the impact of:
 | | Cyprus, Germany | 19% |
 
 **Interesting Case - Hungary:**
-Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (SP95: €1.68/liter, Diesel: €1.75/liter) compared to other EU countries. This suggests different tax strategies or market dynamics.
+Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (SP95: €1.68/liter, Diesel: €1.75/liter) compared to other EU countries. **The reasons for this particular case need to be investigated.**
 
 ---
 
