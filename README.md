@@ -185,3 +185,107 @@ EU_Fuel_Prices/
 │   └── powerbi/           # Power BI dashboard screenshots
 │   └── fabric/            # Microsoft Fabric screenshots
 └── README.md
+
+---
+
+## 🏆 Overall Ranking — June 1st, 2026
+
+### ⛽ EU Petrol SP95 Prices (€/L)
+
+| Rank | Country | Price |
+|------|-------------|-------|
+| 1 | Denmark | 2.50 € |
+| 2 | Netherlands | 2.39 € |
+| 3 | Finland | 2.19 € |
+| 4 | Greece | 2.14 € |
+| 5 | France | 2.11 € |
+| 6 | Germany | 2.03 € |
+| 7 | Portugal | 2.02 € |
+| 8 | Italy | 1.96 € |
+| 9 | Belgium | 1.94 € |
+| 10 | Latvia | 1.88 € |
+| 11 | Ireland | 1.83 € |
+| 12 | Lithuania | 1.82 € |
+| 13 | Luxembourg | 1.81 € |
+| 14 | Estonia | 1.81 € |
+| 15 | Austria | 1.81 € |
+| 16 | Slovakia | 1.80 € |
+| 17 | Romania | 1.78 € |
+| 18 | Czech Republic | 1.78 € |
+| 19 | Sweden | 1.74 € |
+| 20 | Croatia | 1.70 € |
+| 21 | Slovenia | 1.70 € |
+| 22 | Hungary | 1.68 € |
+| 23 | Cyprus | 1.59 € |
+| 24 | Spain | 1.57 € |
+| 25 | Bulgaria | 1.53 € |
+| 26 | Poland | 1.51 € |
+| 27 | Malta | 1.34 € |
+
+---
+
+### 🚗 EU Diesel Prices (€/L)
+
+| Rank | Country | Price |
+|------|-------------|-------|
+| 1 | Finland | 2.32 € |
+| 2 | Netherlands | 2.26 € |
+| 3 | Denmark | 2.22 € |
+| 4 | Belgium | 2.13 € |
+| 5 | France | 2.12 € |
+| 6 | Italy | 1.99 € |
+| 7 | Portugal | 1.96 € |
+| 8 | Sweden | 1.94 € |
+| 9 | Germany | 1.94 € |
+| 10 | Ireland | 1.93 € |
+| 11 | Lithuania | 1.93 € |
+| 12 | Austria | 1.91 € |
+| 13 | Latvia | 1.89 € |
+| 14 | Luxembourg | 1.84 € |
+| 15 | Romania | 1.82 € |
+| 16 | Greece | 1.82 € |
+| 17 | Cyprus | 1.80 € |
+| 18 | Estonia | 1.80 € |
+| 19 | Croatia | 1.79 € |
+| 20 | Hungary | 1.75 € |
+| 21 | Slovenia | 1.75 € |
+| 22 | Slovakia | 1.72 € |
+| 23 | Bulgaria | 1.71 € |
+| 24 | Spain | 1.69 € |
+| 25 | Czech Republic | 1.68 € |
+| 26 | Poland | 1.59 € |
+| 27 | Malta | 1.21 € |
+
+---
+
+### 🧾 EU VAT Rates
+
+| Rank | Country | VAT Rate |
+|------|-------------|----------|
+| 1 | Hungary | 27.0% |
+| 2 | Finland | 25.5% |
+| 3 | Croatia | 25.0% |
+| 4 | Denmark | 25.0% |
+| 5 | Sweden | 25.0% |
+| 6 | Greece | 24.0% |
+| 7 | Ireland | 23.0% |
+| 8 | Portugal | 23.0% |
+| 9 | Slovakia | 23.0% |
+| 10 | Estonia | 22.0% |
+| 11 | Italy | 22.0% |
+| 12 | Slovenia | 22.0% |
+| 13 | Belgium | 21.0% |
+| 14 | Czech Republic | 21.0% |
+| 15 | Latvia | 21.0% |
+| 16 | Lithuania | 21.0% |
+| 17 | Netherlands | 21.0% |
+| 18 | Romania | 21.0% |
+| 19 | Austria | 20.0% |
+| 20 | Bulgaria | 20.0% |
+| 21 | France | 20.0% |
+| 22 | Cyprus | 19.0% |
+| 23 | Germany | 19.0% |
+| 24 | Malta | 18.0% |
+| 25 | Luxembourg | 17.0% |
+| 26 | Spain | 10.0% |
+| 27 | Poland | 8.0% |
