@@ -108,7 +108,7 @@ Understanding the price composition is essential to interpret the data correctly
 
 1. **Product Cost** (crude oil price, refining, transport)
 2. **Distribution Margins** (storage, logistics, service station operations)
-3. **Excise Duties** (specific taxes per liter, sometimes including environmental taxes)
+3. **Excise Duties and Other Taxes** (specific taxes per liter, sometimes including environmental taxes)
 4. **VAT** (applied to the tax-exclusive price, often including excise duties)
 
 ### **Main Insights**
