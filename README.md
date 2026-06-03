@@ -1,4 +1,4 @@
-# 🇪🇺 EU Fuel Prices Analysis Dashboard
+# EU Fuel Prices Analysis Dashboard
 
 *A Power BI dashboard analyzing fuel prices (SP95 and Diesel) across European Union countries, with tax breakdowns, historical trends since 2005, and geopolitical impact visualization. Built with Microsoft Fabric for automated weekly data updates from the European Commission.*
 
@@ -14,9 +14,6 @@ This project provides a **comprehensive analysis** of fuel prices across the Eur
 - **Weekly automated data updates**
 
 The solution leverages **Microsoft Fabric** for data ingestion, transformation, and storage, with **Power BI** for visualization and dashboard creation.
-
-![Power BI Dashboard Preview](https://via.placeholder.com/800x400?text=EU+Fuel+Prices+Dashboard)
-*Main dashboard showing price comparisons across EU countries*
 
 ---
 
