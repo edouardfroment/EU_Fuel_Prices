@@ -89,7 +89,7 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
    - **Email notifications** sent upon successful completion
 
 4. **Visualization**:
-   - Power BI dashboard connected directly to LakeHouse tables
+   - Power BI dashboard connected directly to Lakehouse tables
    - Published to **Power BI Service** (visible in Microsoft Fabric workspace)
 
 ![Fabric Pipeline Screenshot](https://via.placeholder.com/600x300?text=Fabric+Pipeline+Screenshot)
