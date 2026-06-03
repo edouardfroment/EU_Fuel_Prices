@@ -181,12 +181,12 @@ EU-Fuel-Prices/
 ├── notebooks/             # Python notebooks for data extraction
 │   ├── EU_Fuel_Price_ETL
 │   └── Taxes
-├── docs/                  # Documentation and screenshots
+├── screenshots/
 │   └── powerbi/           # Power BI dashboard screenshots
 │       ├── page1_sp95_prices.png
 │       ├── page2_diesel_prices.png
 │       ├── page3_taxes.png
 │       ├── page4_country_view.png
 │       └── page5_overall_ranking.png
-│   └── fabric/            # Microsoft Fabric documentation
+│   └── fabric/            # Microsoft Fabric screenshots
 └── README.md              # This file
