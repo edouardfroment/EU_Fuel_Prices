@@ -69,6 +69,8 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 ![Overall Ranking Screenshot](https://via.placeholder.com/600x300?text=Overall+Ranking+Dashboard+View)
 *Example screenshot of overall ranking page*
 
+[To view the complete ranking directly, you can click here](#-overall-ranking---june-1st-2026)
+
 ---
 
 ## ⚙️ Technical Implementation
