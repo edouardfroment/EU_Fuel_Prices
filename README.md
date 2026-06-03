@@ -186,7 +186,9 @@ EU_Fuel_Prices/
 │   └── fabric/            # Microsoft Fabric screenshots
 └── README.md
 
+```
 
+---
 
 ## 🏆 Overall Ranking — June 1st, 2026
 
