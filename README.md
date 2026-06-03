@@ -149,11 +149,11 @@ The dashboard clearly visualizes the impact of:
 | | Bulgaria | €1.71 |
 
 **Key Observations:**
-- Malta has the **cheapest fuel prices** in the EU
-- Average SP95 price: **€1.90/liter** (up €0.30 from 1 year ago)
-- Average Diesel price: **€1.90/liter** (up €0.41 from 1 year ago)
-- **Denmark** saw the largest SP95 price increase (+€0.56/liter)
-- **Finland** saw the largest Diesel price increase (+€0.77/liter)
+- **Malta** has the cheapest fuel prices in the EU
+- **Average EU SP95 price**: €1.90/liter (up €0.30 from 1 year ago)
+- **Average EU Diesel price**: €1.90/liter (up €0.41 from 1 year ago)
+- **Denmark** saw the largest SP95 price increase over the past year (+€0.56/liter)
+- **Finland** saw the largest Diesel price increase over the past year (+€0.77/liter)
 
 #### **3. VAT and Tax Disparities**
 
