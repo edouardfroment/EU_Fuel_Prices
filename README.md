@@ -102,12 +102,14 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
 
 ## 🔍 Key Insights (as of June 1, 2026)
 
-### **Price Composition in EU**
-In the EU, fuel prices are composed of four main elements:
-1. **Product cost** (crude oil, refining, transport)
-2. **Distribution margins** (storage, logistics, service stations)
-3. **Excise duties** (specific taxes per liter, sometimes including environmental taxes)
-4. **VAT** applied to the tax-exclusive price (often including excise duties)
+### 💰 Fuel Price Composition in the EU
+
+Understanding the price composition is essential to interpret the data correctly. In the European Union, fuel prices are composed of four main elements:
+
+1. **Product Cost** (crude oil price, refining, transport)
+2. **Distribution Margins** (storage, logistics, service station operations)
+3. **Excise Duties** (specific taxes per liter, sometimes including environmental taxes)
+4. **VAT** (applied to the tax-exclusive price, often including excise duties)
 
 ### **Main Insights**
 
