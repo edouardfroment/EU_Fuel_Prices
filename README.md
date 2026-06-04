@@ -62,9 +62,9 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Complete ranking** of EU countries by Diesel price (€/liter)
 - **Complete ranking** of EU countries by fuel VAT rate
 
-<img src="screenshots/power_bi/OverallRanking1.png" alt="Overall Ranking page"/>
+<img src="screenshots/power_bi/OverallRanking1.png" alt="Overall Ranking page" width="80%/>
 
-[To view the complete ranking directly, you can click here](#-overall-ranking---june-1st-2026)
+[To view the complete ranking directly, you can also click here](#-overall-ranking---june-1st-2026)
 
 ---
 
@@ -93,7 +93,13 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
 
    <img src="screenshots/power_bi/Get_Data.png" alt="Connection between Power BI and the Lakehouse" width="50%"/>
 
+   - **Model View & DAX measures** created in Power BI Desktop
+  
+   <img src="screenshots/power_bi/Model_View.png" alt="Model View in Power BI Desktop" width="80%"/>
+   
    - Published to **Power BI Service** (visible in Microsoft Fabric workspace)
+
+     <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="50%"/>
 
 ### **Data Source**
 - Weekly updates from the [European Commission's Weekly Oil Bulletin](https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en)
@@ -117,6 +123,11 @@ Understanding the price composition is essential to interpret the data correctly
 The dashboard clearly visualizes the impact of:
 - **Ukraine war** (since 2022) on fuel prices across the EU
 - **Hormuz Strait blockade** (since March 2026) on recent price increases
+
+<img src="screenshots/power_bi/PetrolPricesOverTime.png" alt="Petrol Prices Over Time (Euro-Super 95)" width="50%"/>
+
+<img src="screenshots/power_bi/PetrolPricesOverTime2.png" alt="Petrol Prices Over Time (Euro-Super 95)" width="50%"/>
+
 
 #### **2. Price Disparities Between EU Countries**
 
@@ -171,9 +182,10 @@ The dashboard clearly visualizes the impact of:
 **Interesting Case - Hungary:**
 Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (Euro-Super 95: €1.69/liter, Diesel: €1.75/liter) compared to other EU countries. **The reasons for this particular case need to be investigated.**
 
+<img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="80%"/>
 ---
 
-## 📁 Project Structure
+## 📁 README Structure
 
 ```bash
 EU_Fuel_Prices/
