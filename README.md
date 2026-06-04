@@ -225,10 +225,11 @@ EU_Fuel_Prices/
 | 25   | Bulgaria        | 1.53 € |
 | 26   | Poland          | 1.42 € |
 | 27   | Malta           | 1.34 € |
+
 """
 
-    # Tableau Diesel Prices
-    diesel_table = """
+"""
+
 ### 🚗 EU Diesel Prices (€/L)
 
 | Rank | Country         | Price |
@@ -260,10 +261,11 @@ EU_Fuel_Prices/
 | 25   | Slovakia        | 1.65 € |
 | 26   | Poland          | 1.47 € |
 | 27   | Malta           | 1.21 € |
+
 """
 
-    # Tableau VAT Rates
-    vat_table = """
+"""
+
 ### 🧾 EU VAT Rates
 
 | Rank | Country         | VAT Rate |
@@ -295,4 +297,5 @@ EU_Fuel_Prices/
 | 25   | Luxembourg      | 17.0% |
 | 26   | Spain           | 10.0% |
 | 27   | Poland          | 8.0% |
+
 """
