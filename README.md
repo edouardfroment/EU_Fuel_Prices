@@ -128,10 +128,12 @@ The dashboard clearly visualizes the impact of:
 - **Hormuz Strait blockade** (since March 2026) on recent price increases
 
 <img src="screenshots/power_bi/PetrolPricesOverTime.png" alt="Petrol Prices Over Time (Euro-Super 95)" width="80%"/>
-*Graph showing the price history of Petrol (Euro-Super 95) since 2005. Key events are highlighted on the chart.*
+<i>Graph showing the price history of Petrol (Euro-Super 95) since 2005. Key events are highlighted on the chart.</i>
+
+<br>
 
 <img src="screenshots/power_bi/PetrolPricesOverTime2.png" alt="Petrol Prices Over Time (Euro-Super 95)" width="80%"/>
-*The same graph in Focus Mode. The tooltip displays the Euro-Super 95 price along with geopolitical context.*
+<i>The same graph in Focus Mode. The tooltip displays the Euro-Super 95 price along with geopolitical context.</i>
 
 #### **2. Price Disparities Between EU Countries**
 
