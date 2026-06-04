@@ -129,7 +129,9 @@ The dashboard clearly visualizes the impact of:
 
 <img src="screenshots/power_bi/PetrolPricesOverTime.png" alt="Petrol Prices Over Time" width="80%"/><br>
 <sub><i>Graph showing the price history of Petrol (Euro-Super 95) since 2005. Key events are highlighted on the chart.</i></sub>
+
 <br>
+
 <img src="screenshots/power_bi/PetrolPricesOverTime2.png" alt="Focus Mode" width="80%"/><br>
 <sub><i>The same graph in Focus Mode. The tooltip displays the Euro-Super 95 price along with geopolitical context.</i></sub>
 
