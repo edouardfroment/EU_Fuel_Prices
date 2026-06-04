@@ -69,9 +69,9 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 ---
 
 ## ⚙️ Technical Implementation
-
+<img src="screenshots/fabric/Fabric.jpg" width="3%"/>
 The project was developed entirely in **Microsoft Fabric** and **Power BI** (no VS Code used). Here's the technical architecture:
-<img src="screenshots/fabric/Fabric.jpg" width="10%"/>
+
 ### **Data Pipeline**
 1. **Python Notebooks** in Microsoft Fabric:
    - `EU_Fuel_Price_ETL.ipynb` - Extracts and cleans Euro-Super 95 and Diesel prices data
