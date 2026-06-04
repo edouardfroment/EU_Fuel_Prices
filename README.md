@@ -93,7 +93,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
    - Power BI dashboard **connected directly to Lakehouse tables**
    <br>
    <img src="screenshots/power_bi/Get_Data.png" alt="Connection between Power BI and the Lakehouse" width="500"/>
-   <br>
+   <br><br>
    
    - **Model View & DAX measures** created in Power BI Desktop
    <br>
