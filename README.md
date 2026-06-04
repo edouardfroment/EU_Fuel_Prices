@@ -69,12 +69,10 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 ---
 
 ## ⚙️ Technical Implementation
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <div style="display: flex; align-items: center; gap: 10px;">
-    <img src="screenshots/fabric/Fabric.png" width="50" style="display: block;" />
-    <p style="margin: 0;">The project was developed entirely in <strong>Microsoft Fabric</strong> and <strong>Power BI</strong> (no VS Code used). Here's the technical architecture:</p>
-  </div>
-</div>
+<p align="center">
+  <img src="screenshots/fabric/Fabric.png" width="30" style="vertical-align: middle;" />
+  The project was developed entirely in <strong>Microsoft Fabric</strong> and <strong>Power BI</strong> (no VS Code used). Here's the technical architecture:
+</p>
 
 ### **Data Pipeline**
 1. **Python Notebooks** in Microsoft Fabric:
