@@ -69,7 +69,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 ---
 
 ## ⚙️ Technical Implementation
-<img src="screenshots/fabric/Fabric.png" width="10"/> The project was developed entirely in **Microsoft Fabric** and **Power BI** (no VS Code used). Here's the technical architecture:
+<img src="screenshots/fabric/Fabric.png" width="30"/> The project was developed entirely in **Microsoft Fabric** and **Power BI** (no VS Code used). Here's the technical architecture:
 
 ### **Data Pipeline**
 1. **Python Notebooks** in Microsoft Fabric:
@@ -126,7 +126,7 @@ The dashboard clearly visualizes the impact of:
 - **Ukraine war** (since 2022) on fuel prices across the EU
 - **Hormuz Strait blockade** (since March 2026) on recent price increases
 
-<img src="screenshots/power_bi/PetrolPricesOverTime.png" alt="Petrol Prices Over Time" width="100%"/><br>
+<img src="screenshots/power_bi/PetrolPricesOverTime.png" alt="Petrol Prices Over Time" width="600"/><br>
 <sub><i>Graph showing the price history of Petrol (Euro-Super 95) since 2005. Key events are highlighted on the chart.</i></sub>
 
 <br>
