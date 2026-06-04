@@ -135,7 +135,6 @@ The dashboard clearly visualizes the impact of:
 <img src="screenshots/power_bi/PetrolPricesOverTime2.png" alt="Focus Mode" width="80%"/><br>
 <sub><i>The same graph in Focus Mode. The tooltip displays the Euro-Super 95 price along with geopolitical context.</i></sub>
 
-<br>
 
 #### **2. Price Disparities Between EU Countries**
 
@@ -193,7 +192,9 @@ The dashboard clearly visualizes the impact of:
 
 **Interesting Case - Hungary:**
 Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (Euro-Super 95: €1.69/liter, Diesel: €1.75/liter) compared to other EU countries. The reasons for this particular case need to be investigated.
+
 <br>
+
 <img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="80%"/>
 
 
