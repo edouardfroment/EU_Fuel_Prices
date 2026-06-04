@@ -105,7 +105,7 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
    <br>
 
 ### **Data Source**
-- Weekly updates from the European Commission's Weekly Oil Bulletin (https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en)
+- Weekly updates from the European Commission's Weekly Oil Bulletin
 
 ---
 
