@@ -69,7 +69,9 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 ---
 
 ## ⚙️ Technical Implementation
-<img src="screenshots/fabric/Fabric.png" width="30"/> The project was developed entirely in **Microsoft Fabric** and **Power BI** (no VS Code used). Here's the technical architecture:
+<img src="screenshots/fabric/Fabric.png" width="30" style="display: inline-block; vertical-align: middle; margin-right: 10px;" />
+
+The project was developed entirely in **Microsoft Fabric** and **Power BI** (no VS Code used). Here's the technical architecture:
 
 ### **Data Pipeline**
 1. **Python Notebooks** in Microsoft Fabric:
