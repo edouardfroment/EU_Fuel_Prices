@@ -135,6 +135,8 @@ The dashboard clearly visualizes the impact of:
 <img src="screenshots/power_bi/PetrolPricesOverTime2.png" alt="Focus Mode" width="80%"/><br>
 <sub><i>The same graph in Focus Mode. The tooltip displays the Euro-Super 95 price along with geopolitical context.</i></sub>
 
+<br>
+
 #### **2. Price Disparities Between EU Countries**
 
 **Euro-Super 95 Prices (€/liter):**
@@ -173,8 +175,6 @@ The dashboard clearly visualizes the impact of:
 - **Average EU Diesel price**: €1.84/liter (up €0.36 from 1 year ago)
 - **Finland** saw the largest increases in both Euro-super 95 (+€0.52/liter) and diesel (+€0.72/liter) prices over the past year.
 
-<br>
-
 #### **3. VAT and Tax Disparities**
 
 **VAT Rates:**
@@ -189,12 +189,14 @@ The dashboard clearly visualizes the impact of:
 | | Malta | 18% |
 | | Cyprus, Germany | 19% |
 
-<br>
+
 **Interesting Case - Hungary:**
 Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (Euro-Super 95: €1.69/liter, Diesel: €1.75/liter) compared to other EU countries. **The reasons for this particular case need to be investigated.**
 
-<img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="80%"/>
 <br>
+
+<img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="80%"/>
+
 
 ## 📁 README Structure
 
