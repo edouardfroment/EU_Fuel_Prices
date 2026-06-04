@@ -69,8 +69,8 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 ---
 
 ## ⚙️ Technical Implementation
-<p align="left" style="line-height: 30px;">
-  <img src="screenshots/fabric/Fabric.png" width="15" style="vertical-align: middle;" />
+<p align="left" style="line-height: 20px;">
+  <img src="screenshots/fabric/Fabric.png" width="20" style="vertical-align: middle;" />
   The project was developed entirely in <strong>Microsoft Fabric</strong> and <strong>Power BI</strong> (no VS Code used). Here's the technical architecture:
 </p>
 
