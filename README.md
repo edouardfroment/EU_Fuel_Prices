@@ -119,7 +119,7 @@ Understanding the price composition is essential to interpret the data correctly
 2. **Distribution Margins** (storage, logistics, service station operations)
 3. **Excise Duties and Other Taxes** (specific taxes per liter, sometimes including environmental taxes)
 4. **VAT** (applied to the tax-exclusive price, often including excise duties)
-
+<br><br>
 ### **Main Insights**
 
 #### **1. Geopolitical Impact**
@@ -161,13 +161,13 @@ The dashboard clearly visualizes the impact of:
 | | Czech Republic | €1.58 |
 | | Slovakia | €1.65 |
 | | Spain | €1.65 |
-
+<br><br>
 **Key Observations:**
 - **Malta** has the cheapest fuel prices in the EU
 - **Average EU Euro-Super 95 price**: €1.85/liter (up €0.25 from 1 year ago)
 - **Average EU Diesel price**: €1.84/liter (up €0.36 from 1 year ago)
 - **Finland** saw the largest increases in both Euro-super 95 (+€0.52/liter) and diesel (+€0.72/liter) prices over the past year.
-
+<br><br>
 #### **3. VAT and Tax Disparities**
 
 **VAT Rates:**
@@ -181,12 +181,12 @@ The dashboard clearly visualizes the impact of:
 | | Luxembourg | 17% |
 | | Malta | 18% |
 | | Cyprus, Germany | 19% |
-
+<br><br>
 **Interesting Case - Hungary:**
 Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (Euro-Super 95: €1.69/liter, Diesel: €1.75/liter) compared to other EU countries. **The reasons for this particular case need to be investigated.**
 
 <img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="80%"/>
----
+<br><br>
 
 ## 📁 README Structure
 
