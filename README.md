@@ -1,13 +1,13 @@
 # EU Fuel Prices Analysis Dashboard
 
-*A Power BI dashboard analyzing fuel prices (SP95 and Diesel) across European Union countries, with tax breakdowns, historical trends since 2005, and geopolitical impact visualization. Built with Microsoft Fabric for automated weekly data updates from the European Commission.*
+*A Power BI dashboard analyzing fuel prices (Euro-Super 95 and Diesel) across European Union countries, with tax breakdowns, historical trends since 2005, and geopolitical impact visualization. Built with Microsoft Fabric for automated weekly data updates from the European Commission.*
 
 ---
 
 ## 📌 Project Overview
 
 This project provides a **comprehensive analysis** of fuel prices across the European Union, focusing on:
-- **Price comparisons** between EU countries for SP95 and Diesel
+- **Price comparisons** between EU countries for Euro-Super 95 and Diesel
 - **Tax breakdowns** (VAT, excise duties, other taxes)
 - **Historical trends** since 2005
 - **Geopolitical impact** visualization (Ukraine war, Hormuz Strait blockade)
@@ -19,12 +19,12 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 
 ## 📊 Power BI Dashboard Pages
 
-### **Page 1: EU Petrol Prices - SP95**
-- **Filled Map** showing SP95 price differences across EU countries
+### **Page 1: EU Petrol Prices - Euro-Super 95**
+- **Filled Map** showing Euro-Super 95 price differences across EU countries
 - **Top 5 most expensive** and **top 5 cheapest** countries (price in €/liter)
-- **Historical trend** of average SP95 price in EU since 2005 (with historical context tooltips)
-- **Current average SP95 price** in EU (price in €/liter)
-- **1-year evolution** of SP95 prices (price in €/liter)
+- **Historical trend** of average Euro-Super 95 price in EU since 2005 (with historical context tooltips)
+- **Current average Euro-Super 95 price** in EU (price in €/liter)
+- **1-year evolution** of Euro-Super 95 prices (price in €/liter)
 
 ![SP95 Prices Screenshot](https://via.placeholder.com/600x300?text=SP95+Prices+Dashboard+View)
 *Example screenshot of SP95 prices page*
@@ -45,7 +45,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 ### **Page 3: EU Fuel Taxes**
 - **Filled Map** showing VAT differences across EU countries
 - **Top 5 highest VAT** and **top 5 lowest VAT** countries
-- **Table** displaying excise duties and other taxes for SP95 and Diesel (price in €/liter)
+- **Table** displaying excise duties and other taxes for Euro-Super 95 and Diesel (price in €/liter)
 
 ![Fuel Taxes Screenshot](https://via.placeholder.com/600x300?text=Fuel+Taxes+Dashboard+View)
 *Example screenshot of fuel taxes page*
@@ -55,14 +55,14 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Dropdown menu** to select any EU country
 - **Card** showing the selected country's VAT rate
 - **Azure Map** of the selected country
-- **Data cards** showing SP95 and Diesel prices for the selected country
+- **Data cards** showing Euro-Super 95 and Diesel prices for the selected country
 
 ![Country View Screenshot](https://via.placeholder.com/600x300?text=Country+View+Dashboard+View)
 *Example screenshot of country view page*
 
 ---
 ### **Page 5: Overall Ranking**
-- **Complete ranking** of EU countries by SP95 price (€/liter)
+- **Complete ranking** of EU countries by Euro-Super 95 price (€/liter)
 - **Complete ranking** of EU countries by Diesel price (€/liter)
 - **Complete ranking** of EU countries by fuel VAT rate
 
@@ -79,8 +79,8 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
 
 ### **Data Pipeline**
 1. **Python Notebooks** in Microsoft Fabric:
-   - `notebooks/extract_sp95_data.py` - Extracts and cleans SP95 price data
-   - `notebooks/extract_diesel_data.py` - Extracts and cleans Diesel price data
+   - `EU_Fuel_Price_ETL.ipynb` - Extracts and cleans Euro-Super 95 and Diesel prices data
+   - `Taxes.ipynb` - Extracts Taxes data
 
 2. **Data Processing**:
    - Both scripts clean and transform the data
@@ -125,7 +125,7 @@ The dashboard clearly visualizes the impact of:
 
 #### **2. Price Disparities Between EU Countries**
 
-**SP95 Prices (€/liter):**
+**Euro-Super 95 Prices (€/liter):**
 | Rank | Country | Price |
 |------|---------|-------|
 | **Most Expensive** | Denmark | €2.50 |
@@ -155,9 +155,9 @@ The dashboard clearly visualizes the impact of:
 
 **Key Observations:**
 - **Malta** has the cheapest fuel prices in the EU
-- **Average EU SP95 price**: €1.90/liter (up €0.30 from 1 year ago)
+- **Average EU Euro-Super 95 price**: €1.90/liter (up €0.30 from 1 year ago)
 - **Average EU Diesel price**: €1.90/liter (up €0.41 from 1 year ago)
-- **Denmark** saw the largest SP95 price increase over the past year (+€0.56/liter)
+- **Denmark** saw the largest Euro-Super 95 price increase over the past year (+€0.56/liter)
 - **Finland** saw the largest Diesel price increase over the past year (+€0.77/liter)
 
 #### **3. VAT and Tax Disparities**
@@ -175,7 +175,7 @@ The dashboard clearly visualizes the impact of:
 | | Cyprus, Germany | 19% |
 
 **Interesting Case - Hungary:**
-Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (SP95: €1.68/liter, Diesel: €1.75/liter) compared to other EU countries. **The reasons for this particular case need to be investigated.**
+Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (Euro-Super 95: €1.68/liter, Diesel: €1.75/liter) compared to other EU countries. **The reasons for this particular case need to be investigated.**
 
 ---
 
@@ -197,7 +197,7 @@ EU_Fuel_Prices/
 
 ## 🏆 Overall Ranking - June 1st, 2026
 
-### ⛽ EU Petrol SP95 Prices (€/L)
+### ⛽ EU Petrol Euro-Super 95 Prices (€/L)
 
 | Rank | Country | Price |
 |------|-------------|-------|
