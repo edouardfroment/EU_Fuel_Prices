@@ -26,7 +26,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Current average Euro-Super 95 price** in EU (price in €/liter)
 - **1-year evolution** of Euro-Super 95 prices (price in €/liter)
 
-<img src="screenshots/power_bi/EuroSuper95.png" alt="Euro-Super 95 page" width="80%"/>
+<img src="screenshots/power_bi/EuroSuper95.png" alt="Euro-Super 95 page" width="100%"/>
 
 ---
 
@@ -37,7 +37,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Current average Diesel price** in EU (price in €/liter)
 - **1-year evolution** of Diesel prices (price in €/liter)
 
-<img src="screenshots/power_bi/Diesel.png" alt="Diesel page" width="80%"/>
+<img src="screenshots/power_bi/Diesel.png" alt="Diesel page" width="100%"/>
 
 ---
 ### **Page 3: EU Fuel Taxes**
@@ -45,7 +45,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Top 5 highest VAT** and **top 5 lowest VAT** countries
 - **Table** displaying excise duties and other taxes for Euro-Super 95 and Diesel (price in €/liter)
 
-<img src="screenshots/power_bi/Taxes.png" alt="Taxes page" width="80%"/>
+<img src="screenshots/power_bi/Taxes.png" alt="Taxes page" width="100%"/>
 
 ---
 ### **Page 4: Country View**
@@ -54,7 +54,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Azure Map** of the selected country
 - **Data cards** showing Euro-Super 95 and Diesel prices for the selected country
 
-<img src="screenshots/power_bi/CountryViewSweden.png" alt="Country View page page" width="80%"/>
+<img src="screenshots/power_bi/CountryViewSweden.png" alt="Country View page page" width="100%"/>
 
 ---
 ### **Page 5: Overall Ranking**
@@ -69,7 +69,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 ---
 
 ## ⚙️ Technical Implementation
-<img src="screenshots/fabric/Fabric.png" width="2%"/> The project was developed entirely in **Microsoft Fabric** and **Power BI** (no VS Code used). Here's the technical architecture:
+<img src="screenshots/fabric/Fabric.png" width="10"/> The project was developed entirely in **Microsoft Fabric** and **Power BI** (no VS Code used). Here's the technical architecture:
 
 ### **Data Pipeline**
 1. **Python Notebooks** in Microsoft Fabric:
@@ -84,23 +84,23 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
    - **Weekly pipeline** that automatically runs both Python scripts
    - **Email notifications** sent upon successful completion
      
-     <img src="screenshots/fabric/Pipeline.png" alt="Automation in Fabric" width="50%"/>
+     <img src="screenshots/fabric/Pipeline.png" alt="Automation in Fabric" width="500"/>
 
 4. **Visualization**:
 
    - Power BI dashboard connected directly to Lakehouse tables
    <br>
-   <img src="screenshots/power_bi/Get_Data.png" alt="Connection between Power BI and the Lakehouse" width="50%"/>
+   <img src="screenshots/power_bi/Get_Data.png" alt="Connection between Power BI and the Lakehouse" width="500"/>
    <br>
    
    - **Model View & DAX measures** created in Power BI Desktop
    <br>
-   <img src="screenshots/power_bi/Model_View.png" alt="Model View in Power BI Desktop" width="80%"/>
+   <img src="screenshots/power_bi/Model_View.png" alt="Model View in Power BI Desktop" width="100"/>
    <br><br>
 
    - Published to **Power BI Service** (visible in Microsoft Fabric workspace)
    <br>
-   <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="80%"/>
+   <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="600"/>
    <br>
 
 ### **Data Source**
@@ -126,12 +126,12 @@ The dashboard clearly visualizes the impact of:
 - **Ukraine war** (since 2022) on fuel prices across the EU
 - **Hormuz Strait blockade** (since March 2026) on recent price increases
 
-<img src="screenshots/power_bi/PetrolPricesOverTime.png" alt="Petrol Prices Over Time" width="80%"/><br>
+<img src="screenshots/power_bi/PetrolPricesOverTime.png" alt="Petrol Prices Over Time" width="100%"/><br>
 <sub><i>Graph showing the price history of Petrol (Euro-Super 95) since 2005. Key events are highlighted on the chart.</i></sub>
 
 <br>
 
-<img src="screenshots/power_bi/PetrolPricesOverTime2.png" alt="Focus Mode" width="80%"/><br>
+<img src="screenshots/power_bi/PetrolPricesOverTime2.png" alt="Focus Mode" width="100%"/><br>
 <sub><i>The same graph in Focus Mode. The tooltip displays the Euro-Super 95 price along with geopolitical context.</i></sub>
 
 
@@ -194,7 +194,7 @@ Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable 
 
 <br>
 
-<img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="80%"/>
+<img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="100%"/>
 
 
 ## 📁 README Structure
