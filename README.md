@@ -193,6 +193,7 @@ The dashboard clearly visualizes the impact of:
 
 **Interesting Case - Hungary:**
 Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (Euro-Super 95: €1.69/liter, Diesel: €1.75/liter) compared to other EU countries. The reasons for this particular case need to be investigated.
+<br>
 <img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="80%"/>
 
 
