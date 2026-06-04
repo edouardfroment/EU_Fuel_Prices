@@ -26,7 +26,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Current average Euro-Super 95 price** in EU (price in €/liter)
 - **1-year evolution** of Euro-Super 95 prices (price in €/liter)
 
-<img src="screenshots/power_bi/EuroSuper95.png" alt="Euro-Super 95 page" width="75%"/>
+<img src="screenshots/power_bi/EuroSuper95.png" alt="Euro-Super 95 page" width="80%"/>
 
 ---
 
@@ -37,7 +37,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Current average Diesel price** in EU (price in €/liter)
 - **1-year evolution** of Diesel prices (price in €/liter)
 
-<img src="screenshots/power_bi/Diesel.png" alt="Diesel page" width="75%"/>
+<img src="screenshots/power_bi/Diesel.png" alt="Diesel page" width="80%"/>
 
 ---
 ### **Page 3: EU Fuel Taxes**
@@ -45,8 +45,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Top 5 highest VAT** and **top 5 lowest VAT** countries
 - **Table** displaying excise duties and other taxes for Euro-Super 95 and Diesel (price in €/liter)
 
-![Fuel Taxes Screenshot](https://via.placeholder.com/600x300?text=Fuel+Taxes+Dashboard+View)
-*Example screenshot of fuel taxes page*
+<img src="screenshots/power_bi/Taxes.png" alt="Taxes page" width="80%"/>
 
 ---
 ### **Page 4: Country View**
@@ -55,8 +54,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Azure Map** of the selected country
 - **Data cards** showing Euro-Super 95 and Diesel prices for the selected country
 
-![Country View Screenshot](https://via.placeholder.com/600x300?text=Country+View+Dashboard+View)
-*Example screenshot of country view page*
+<img src="screenshots/power_bi/CountryViewSweden.png" alt="Country View page page" width="80%"/>
 
 ---
 ### **Page 5: Overall Ranking**
@@ -64,8 +62,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Complete ranking** of EU countries by Diesel price (€/liter)
 - **Complete ranking** of EU countries by fuel VAT rate
 
-![Overall Ranking Screenshot](https://via.placeholder.com/600x300?text=Overall+Ranking+Dashboard+View)
-*Example screenshot of overall ranking page*
+<img src="screenshots/power_bi/OverallRanking1.png" alt="Overall Ranking page"/>
 
 [To view the complete ranking directly, you can click here](#-overall-ranking---june-1st-2026)
 
