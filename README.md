@@ -26,8 +26,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Current average Euro-Super 95 price** in EU (price in €/liter)
 - **1-year evolution** of Euro-Super 95 prices (price in €/liter)
 
-![SP95 Prices Screenshot](https://via.placeholder.com/600x300?text=SP95+Prices+Dashboard+View)
-*Example screenshot of SP95 prices page*
+<img src="screenshots/power_bi/EuroSuper95.png" alt="Euro-Super 95 page" width="50%"/>
 
 ---
 
@@ -38,7 +37,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Current average Diesel price** in EU (price in €/liter)
 - **1-year evolution** of Diesel prices (price in €/liter)
 
-![Diesel Prices Screenshot](https://via.placeholder.com/600x300?text=Diesel+Prices+Dashboard+View)
+<img src="screenshots/power_bi/Get_Data.png" alt="Connection between Power BI and the Lakehouse" width="50%"/>
 *Example screenshot of Diesel prices page*
 
 ---
