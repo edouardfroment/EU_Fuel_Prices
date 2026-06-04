@@ -172,6 +172,8 @@ The dashboard clearly visualizes the impact of:
 - **Average EU Diesel price**: €1.84/liter (up €0.36 from 1 year ago)
 - **Finland** saw the largest increases in both Euro-super 95 (+€0.52/liter) and diesel (+€0.72/liter) prices over the past year.
 
+<br>
+
 #### **3. VAT and Tax Disparities**
 
 **VAT Rates:**
