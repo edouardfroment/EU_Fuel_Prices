@@ -226,9 +226,6 @@ EU_Fuel_Prices/
 | 26   | Poland          | 1.42 € |
 | 27   | Malta           | 1.34 € |
 
-"""
-
-"""
 
 ### 🚗 EU Diesel Prices (€/L)
 
@@ -262,9 +259,6 @@ EU_Fuel_Prices/
 | 26   | Poland          | 1.47 € |
 | 27   | Malta           | 1.21 € |
 
-"""
-
-"""
 
 ### 🧾 EU VAT Rates
 
@@ -297,5 +291,3 @@ EU_Fuel_Prices/
 | 25   | Luxembourg      | 17.0% |
 | 26   | Spain           | 10.0% |
 | 27   | Poland          | 8.0% |
-
-"""
