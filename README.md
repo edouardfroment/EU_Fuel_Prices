@@ -85,11 +85,13 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
    - **Weekly pipeline** that automatically runs both Python scripts
    - **Email notifications** sent upon successful completion
 
+
    <img src="screenshots/fabric/Pipeline.png" alt="Automation in Fabric" width="50%"/>
 
 4. **Visualization**:
 
    - Power BI dashboard connected directly to Lakehouse tables
+
 
    <img src="screenshots/power_bi/Get_Data.png" alt="Connection between Power BI and the Lakehouse" width="50%"/>
 
@@ -101,7 +103,7 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
    - Published to **Power BI Service** (visible in Microsoft Fabric workspace)
 
 
-     <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="50%"/>
+     <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="80%"/>
 
 ### **Data Source**
 - Weekly updates from the [European Commission's Weekly Oil Bulletin](https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en)
