@@ -87,7 +87,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
    - **Weekly pipeline** that automatically runs both Python scripts
    - **Email notifications** sent upon successful completion
      
-     <img src="screenshots/fabric/Pipeline.png" alt="Automation in Fabric" width="500"/>
+   <img src="screenshots/fabric/Pipeline.png" alt="Automation in Fabric" width="500"/>
 
 4. **Visualization**:
 
