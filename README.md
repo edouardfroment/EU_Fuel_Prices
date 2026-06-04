@@ -96,8 +96,8 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
    
    - **Model View & DAX measures** created in Power BI Desktop
    <br>
-   <img src="screenshots/power_bi/Model_View.png" alt="Model View in Power BI Desktop" width="80%"/> <br>
-   
+   <img src="screenshots/power_bi/Model_View.png" alt="Model View in Power BI Desktop" width="80%"/>
+
    - Published to **Power BI Service** (visible in Microsoft Fabric workspace)
    <br>
    <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="80%"/>
