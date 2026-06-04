@@ -194,6 +194,9 @@ EU_Fuel_Prices/
 
 ---
 
+#-overall-ranking---june-1st-2026
+---
+
 ### ⛽ EU Petrol Euro-Super 95 Prices (€/L)
 
 | Rank | Country         | Price |
@@ -227,6 +230,7 @@ EU_Fuel_Prices/
 | 27   | Malta           | 1.34 € |
 
 
+
 ### 🚗 EU Diesel Prices (€/L)
 
 | Rank | Country         | Price |
@@ -258,6 +262,7 @@ EU_Fuel_Prices/
 | 25   | Slovakia        | 1.65 € |
 | 26   | Poland          | 1.47 € |
 | 27   | Malta           | 1.21 € |
+
 
 
 ### 🧾 EU VAT Rates
