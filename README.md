@@ -95,7 +95,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
    
    - **Model View & DAX measures** created in Power BI Desktop
    <br>
-   <img src="screenshots/power_bi/Model_View.png" alt="Model View in Power BI Desktop" width="100"/>
+   <img src="screenshots/power_bi/Model_View.png" alt="Model View in Power BI Desktop" width="100%"/>
    <br><br>
 
    - Published to **Power BI Service** (visible in Microsoft Fabric workspace)
