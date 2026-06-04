@@ -200,7 +200,7 @@ Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable 
 <img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="100%"/>
 
 
-## 📁 README Structure
+## 📁 GitHub Structure
 
 ```bash
 EU_Fuel_Prices/
