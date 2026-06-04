@@ -100,7 +100,8 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
    <br>
    
    - Published to **Power BI Service** (visible in Microsoft Fabric workspace)
-   <br> 
+   <br>
+   <br>
    <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="80%"/>
    <br>
 
