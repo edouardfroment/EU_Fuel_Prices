@@ -62,7 +62,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Complete ranking** of EU countries by Diesel price (€/liter)
 - **Complete ranking** of EU countries by fuel VAT rate
 
-<img src="screenshots/power_bi/OverallRanking1.png" alt="Overall Ranking Page" width="80%"/>
+<img src="screenshots/power_bi/OverallRanking1.png" alt="Overall Ranking Page" width="100%"/>
 
 [To view the complete ranking directly, you can also click here](#-overall-ranking---june-1st-2026)
 
@@ -189,12 +189,10 @@ The dashboard clearly visualizes the impact of:
 | | Malta | 18% |
 | | Cyprus, Germany | 19% |
 
-
-**Interesting Case - Hungary:**
-Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (Euro-Super 95: €1.69/liter, Diesel: €1.75/liter) compared to other EU countries. **The reasons for this particular case need to be investigated.**
-
 <br>
 
+**Interesting Case - Hungary:**
+Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (Euro-Super 95: €1.69/liter, Diesel: €1.75/liter) compared to other EU countries. The reasons for this particular case need to be investigated.
 <img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="80%"/>
 
 
