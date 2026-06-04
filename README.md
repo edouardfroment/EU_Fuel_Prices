@@ -103,7 +103,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 
    - Published to **Power BI Service** (visible in Microsoft Fabric workspace)
    <br>
-   <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="600"/>
+   <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="700"/>
    <br>
 
 ### **Data Source**
