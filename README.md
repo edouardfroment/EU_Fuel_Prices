@@ -128,9 +128,10 @@ The dashboard clearly visualizes the impact of:
 - **Hormuz Strait blockade** (since March 2026) on recent price increases
 
 <img src="screenshots/power_bi/PetrolPricesOverTime.png" alt="Petrol Prices Over Time (Euro-Super 95)" width="80%"/>
+*Graph showing the price history of Petrol (Euro-Super 95) since 2005. Key events are highlighted on the chart.*
 
 <img src="screenshots/power_bi/PetrolPricesOverTime2.png" alt="Petrol Prices Over Time (Euro-Super 95)" width="80%"/>
-
+*The same graph in Focus Mode. The tooltip displays the Euro-Super 95 price along with geopolitical context.*
 
 #### **2. Price Disparities Between EU Countries**
 
@@ -161,13 +162,17 @@ The dashboard clearly visualizes the impact of:
 | | Czech Republic | €1.58 |
 | | Slovakia | €1.65 |
 | | Spain | €1.65 |
+
 <br><br>
+
 **Key Observations:**
 - **Malta** has the cheapest fuel prices in the EU
 - **Average EU Euro-Super 95 price**: €1.85/liter (up €0.25 from 1 year ago)
 - **Average EU Diesel price**: €1.84/liter (up €0.36 from 1 year ago)
 - **Finland** saw the largest increases in both Euro-super 95 (+€0.52/liter) and diesel (+€0.72/liter) prices over the past year.
+
 <br><br>
+
 #### **3. VAT and Tax Disparities**
 
 **VAT Rates:**
