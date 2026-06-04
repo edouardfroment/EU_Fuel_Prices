@@ -90,19 +90,14 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
 4. **Visualization**:
 
    - Power BI dashboard connected directly to Lakehouse tables
-
    <img src="screenshots/power_bi/Get_Data.png" alt="Connection between Power BI and the Lakehouse" width="50%"/>
-<br>
-
+   <br>
    - **Model View & DAX measures** created in Power BI Desktop
-
    <img src="screenshots/power_bi/Model_View.png" alt="Model View in Power BI Desktop" width="80%"/>
-<br>
-   
+   <br>
    - Published to **Power BI Service** (visible in Microsoft Fabric workspace)  
-
    <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="80%"/>
-<br>
+   <br>
 
 ### **Data Source**
 - Weekly updates from the [European Commission's Weekly Oil Bulletin](https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en)
