@@ -84,6 +84,7 @@ The project was developed entirely in **Microsoft Fabric** and **Power BI** (no 
 3. **Automation**:
    - **Weekly pipeline** that automatically runs both Python scripts
    - **Email notifications** sent upon successful completion
+     
      <img src="screenshots/fabric/Pipeline.png" alt="Automation in Fabric" width="50%"/>
 
 4. **Visualization**:
