@@ -76,11 +76,10 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 
 ### **Data Pipeline**
 1. **Python Notebooks** in Microsoft Fabric:
-   - `EU_Fuel_Price_ETL.ipynb` - Extracts and cleans Euro-Super 95 and Diesel prices data
-   - `Taxes.ipynb` - Extracts Taxes data
+   - `EU_Fuel_Price_ETL.ipynb` - Extracts, cleans and transforms Euro-Super 95 and Diesel prices data from the European Commission's website.
+   - `Taxes.ipynb` - Extracts, cleans and transforms Taxes data from the European Commission's website.
 
-2. **Data Processing**:
-   - Both scripts clean and transform the data
+2. **Storage in LakeHouse**:
    - Data is loaded into **LakeHouse tables** in Microsoft Fabric
 
 3. **Automation**:
@@ -91,7 +90,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 
 4. **Visualization**:
 
-   - Power BI dashboard connected directly to Lakehouse tables
+   - Power BI dashboard **connected directly to Lakehouse tables**
    <br>
    <img src="screenshots/power_bi/Get_Data.png" alt="Connection between Power BI and the Lakehouse" width="500"/>
    <br>
@@ -105,9 +104,6 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
    <br>
    <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="700"/>
    <br>
-
-### **Data Source**
-- Weekly updates from the European Commission's Weekly Oil Bulletin
 
 ---
 
