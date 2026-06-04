@@ -128,37 +128,36 @@ The dashboard clearly visualizes the impact of:
 **Euro-Super 95 Prices (€/liter):**
 | Rank | Country | Price |
 |------|---------|-------|
-| **Most Expensive** | Denmark | €2.50 |
-| | Netherlands | €2.39 |
-| | Finland | €2.19 |
-| | Greece | €2.14 |
-| | France | €2.11 |
+| **Most Expensive** | Denmark | €2.39 |
+| | Netherlands | €2.30 |
+| | Finland | €2.20 |
+| | Greece | €2.06 |
+| | France | €2.06 |
 | **Cheapest** | Malta | €1.34 |
-| | Poland | €1.51 |
+| | Poland | €1.42 |
 | | Bulgaria | €1.53 |
-| | Spain | €1.57 |
-| | Cyprus | €1.59 |
+| | Spain | €1.55 |
+| | Cyprus | €1.61 |
 
 **Diesel Prices (€/liter):**
 | Rank | Country | Price |
 |------|---------|-------|
-| **Most Expensive** | Finland | €2.32 |
-| | Netherlands | €2.26 |
-| | Denmark | €2.22 |
-| | Belgium | €2.13 |
-| | France | €2.12 |
+| **Most Expensive** | Finland | €2.30 |
+| | Netherlands | €2.16 |
+| | Denmark | €2.11 |
+| | Belgium | €2.08 |
+| | France | €2.04 |
 | **Cheapest** | Malta | €1.21 |
-| | Poland | €1.59 |
-| | Czech Republic | €1.68 |
-| | Spain | €1.69 |
-| | Bulgaria | €1.71 |
+| | Poland | €1.47 |
+| | Czech Republic | €1.58 |
+| | Slovakia | €1.65 |
+| | Spain | €1.65 |
 
 **Key Observations:**
 - **Malta** has the cheapest fuel prices in the EU
-- **Average EU Euro-Super 95 price**: €1.90/liter (up €0.30 from 1 year ago)
-- **Average EU Diesel price**: €1.90/liter (up €0.41 from 1 year ago)
-- **Denmark** saw the largest Euro-Super 95 price increase over the past year (+€0.56/liter)
-- **Finland** saw the largest Diesel price increase over the past year (+€0.77/liter)
+- **Average EU Euro-Super 95 price**: €1.85/liter (up €0.25 from 1 year ago)
+- **Average EU Diesel price**: €1.84/liter (up €0.36 from 1 year ago)
+- **Finland** saw the largest increases in both Euro-super 95 (+€0.52/liter) and diesel (+€0.72/liter) prices over the past year.
 
 #### **3. VAT and Tax Disparities**
 
@@ -175,7 +174,7 @@ The dashboard clearly visualizes the impact of:
 | | Cyprus, Germany | 19% |
 
 **Interesting Case - Hungary:**
-Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (Euro-Super 95: €1.68/liter, Diesel: €1.75/liter) compared to other EU countries. **The reasons for this particular case need to be investigated.**
+Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (Euro-Super 95: €1.69/liter, Diesel: €1.75/liter) compared to other EU countries. **The reasons for this particular case need to be investigated.**
 
 ---
 
@@ -195,104 +194,105 @@ EU_Fuel_Prices/
 
 ---
 
-## 🏆 Overall Ranking - June 1st, 2026
-
 ### ⛽ EU Petrol Euro-Super 95 Prices (€/L)
 
-| Rank | Country | Price |
-|------|-------------|-------|
-| 1 | Denmark | 2.50 € |
-| 2 | Netherlands | 2.39 € |
-| 3 | Finland | 2.19 € |
-| 4 | Greece | 2.14 € |
-| 5 | France | 2.11 € |
-| 6 | Germany | 2.03 € |
-| 7 | Portugal | 2.02 € |
-| 8 | Italy | 1.96 € |
-| 9 | Belgium | 1.94 € |
-| 10 | Latvia | 1.88 € |
-| 11 | Ireland | 1.83 € |
-| 12 | Lithuania | 1.82 € |
-| 13 | Luxembourg | 1.81 € |
-| 14 | Estonia | 1.81 € |
-| 15 | Austria | 1.81 € |
-| 16 | Slovakia | 1.80 € |
-| 17 | Romania | 1.78 € |
-| 18 | Czech Republic | 1.78 € |
-| 19 | Sweden | 1.74 € |
-| 20 | Croatia | 1.70 € |
-| 21 | Slovenia | 1.70 € |
-| 22 | Hungary | 1.68 € |
-| 23 | Cyprus | 1.59 € |
-| 24 | Spain | 1.57 € |
-| 25 | Bulgaria | 1.53 € |
-| 26 | Poland | 1.51 € |
-| 27 | Malta | 1.34 € |
+| Rank | Country         | Price |
+|------|-----------------|-------|
+| 1    | Denmark         | 2.39 € |
+| 2    | Netherlands     | 2.30 € |
+| 3    | Finland         | 2.20 € |
+| 4    | Greece          | 2.06 € |
+| 5    | France          | 2.06 € |
+| 6    | Germany         | 1.96 € |
+| 7    | Portugal        | 1.94 € |
+| 8    | Italy           | 1.95 € |
+| 9    | Belgium         | 1.85 € |
+| 10   | Latvia          | 1.88 € |
+| 11   | Ireland         | 1.84 € |
+| 12   | Romania         | 1.84 € |
+| 13   | Estonia         | 1.81 € |
+| 14   | Lithuania       | 1.79 € |
+| 15   | Slovakia        | 1.74 € |
+| 16   | Austria         | 1.74 € |
+| 17   | Slovenia        | 1.72 € |
+| 18   | Czech Republic  | 1.72 € |
+| 19   | Luxembourg      | 1.70 € |
+| 20   | Croatia         | 1.70 € |
+| 21   | Hungary         | 1.69 € |
+| 22   | Sweden          | 1.61 € |
+| 23   | Cyprus          | 1.61 € |
+| 24   | Spain           | 1.55 € |
+| 25   | Bulgaria        | 1.53 € |
+| 26   | Poland          | 1.42 € |
+| 27   | Malta           | 1.34 € |
+"""
 
----
-
+    # Tableau Diesel Prices
+    diesel_table = """
 ### 🚗 EU Diesel Prices (€/L)
 
-| Rank | Country | Price |
-|------|-------------|-------|
-| 1 | Finland | 2.32 € |
-| 2 | Netherlands | 2.26 € |
-| 3 | Denmark | 2.22 € |
-| 4 | Belgium | 2.13 € |
-| 5 | France | 2.12 € |
-| 6 | Italy | 1.99 € |
-| 7 | Portugal | 1.96 € |
-| 8 | Sweden | 1.94 € |
-| 9 | Germany | 1.94 € |
-| 10 | Ireland | 1.93 € |
-| 11 | Lithuania | 1.93 € |
-| 12 | Austria | 1.91 € |
-| 13 | Latvia | 1.89 € |
-| 14 | Luxembourg | 1.84 € |
-| 15 | Romania | 1.82 € |
-| 16 | Greece | 1.82 € |
-| 17 | Cyprus | 1.80 € |
-| 18 | Estonia | 1.80 € |
-| 19 | Croatia | 1.79 € |
-| 20 | Hungary | 1.75 € |
-| 21 | Slovenia | 1.75 € |
-| 22 | Slovakia | 1.72 € |
-| 23 | Bulgaria | 1.71 € |
-| 24 | Spain | 1.69 € |
-| 25 | Czech Republic | 1.68 € |
-| 26 | Poland | 1.59 € |
-| 27 | Malta | 1.21 € |
+| Rank | Country         | Price |
+|------|-----------------|-------|
+| 1    | Finland         | 2.30 € |
+| 2    | Netherlands     | 2.16 € |
+| 3    | Denmark         | 2.11 € |
+| 4    | Belgium         | 2.08 € |
+| 5    | France          | 2.04 € |
+| 6    | Italy           | 2.02 € |
+| 7    | Ireland         | 1.92 € |
+| 8    | Lithuania       | 1.88 € |
+| 9    | Portugal        | 1.87 € |
+| 10   | Germany         | 1.86 € |
+| 11   | Austria         | 1.83 € |
+| 12   | Latvia          | 1.82 € |
+| 13   | Sweden          | 1.82 € |
+| 14   | Romania         | 1.80 € |
+| 15   | Estonia         | 1.80 € |
+| 16   | Cyprus          | 1.80 € |
+| 17   | Croatia         | 1.79 € |
+| 18   | Slovenia        | 1.76 € |
+| 19   | Hungary         | 1.75 € |
+| 20   | Greece          | 1.74 € |
+| 21   | Luxembourg      | 1.73 € |
+| 22   | Bulgaria        | 1.71 € |
+| 23   | Spain           | 1.65 € |
+| 24   | Czech Republic  | 1.58 € |
+| 25   | Slovakia        | 1.65 € |
+| 26   | Poland          | 1.47 € |
+| 27   | Malta           | 1.21 € |
+"""
 
----
-
+    # Tableau VAT Rates
+    vat_table = """
 ### 🧾 EU VAT Rates
 
-| Rank | Country | VAT Rate |
-|------|-------------|----------|
-| 1 | Hungary | 27.0% |
-| 2 | Finland | 25.5% |
-| 3 | Croatia | 25.0% |
-| 4 | Denmark | 25.0% |
-| 5 | Sweden | 25.0% |
-| 6 | Greece | 24.0% |
-| 7 | Ireland | 23.0% |
-| 8 | Portugal | 23.0% |
-| 9 | Slovakia | 23.0% |
-| 10 | Estonia | 22.0% |
-| 11 | Italy | 22.0% |
-| 12 | Slovenia | 22.0% |
-| 13 | Belgium | 21.0% |
-| 14 | Czech Republic | 21.0% |
-| 15 | Latvia | 21.0% |
-| 16 | Lithuania | 21.0% |
-| 17 | Netherlands | 21.0% |
-| 18 | Romania | 21.0% |
-| 19 | Austria | 20.0% |
-| 20 | Bulgaria | 20.0% |
-| 21 | France | 20.0% |
-| 22 | Cyprus | 19.0% |
-| 23 | Germany | 19.0% |
-| 24 | Malta | 18.0% |
-| 25 | Luxembourg | 17.0% |
-| 26 | Spain | 10.0% |
-| 27 | Poland | 8.0% |
+| Rank | Country         | VAT Rate |
+|------|-----------------|----------|
+| 1    | Hungary         | 27.0% |
+| 2    | Finland         | 25.5% |
+| 3    | Croatia         | 25.0% |
+| 4    | Denmark         | 25.0% |
+| 5    | Sweden          | 25.0% |
+| 6    | Greece          | 24.0% |
+| 7    | Ireland         | 23.0% |
+| 8    | Portugal        | 23.0% |
+| 9    | Slovakia        | 23.0% |
+| 10   | Estonia         | 22.0% |
+| 11   | Italy           | 22.0% |
+| 12   | Slovenia        | 22.0% |
+| 13   | Belgium         | 21.0% |
+| 14   | Czech Republic  | 21.0% |
+| 15   | Latvia          | 21.0% |
+| 16   | Lithuania       | 21.0% |
+| 17   | Netherlands     | 21.0% |
+| 18   | Romania         | 21.0% |
+| 19   | Austria         | 20.0% |
+| 20   | Bulgaria        | 20.0% |
+| 21   | France          | 20.0% |
+| 22   | Cyprus          | 19.0% |
+| 23   | Germany         | 19.0% |
+| 24   | Malta           | 18.0% |
+| 25   | Luxembourg      | 17.0% |
+| 26   | Spain           | 10.0% |
+| 27   | Poland          | 8.0% |
+"""
