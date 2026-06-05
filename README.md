@@ -2,7 +2,6 @@
 
 *A Power BI dashboard analyzing fuel prices (Euro-Super 95 and Diesel) across European Union countries, with tax breakdowns, historical trends since 2005, and geopolitical impact visualization. Built with Microsoft Fabric for automated weekly data updates from the European Commission.*
 
----
 
 ## 🎥 Demo
 
