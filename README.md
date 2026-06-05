@@ -235,73 +235,69 @@ EU_Fuel_Prices/
 
 ## 🏆 Overall Ranking - June 1st, 2026
 
-
 ### ⛽ EU Petrol Euro-Super 95 Prices (€/L)
 
 | Rank | Country         | Price |
 |------|-----------------|-------|
-| 1    | Denmark         | 2.39 € |
-| 2    | Netherlands     | 2.30 € |
-| 3    | Finland         | 2.20 € |
-| 4    | Greece          | 2.06 € |
-| 5    | France          | 2.06 € |
-| 6    | Germany         | 1.96 € |
-| 7    | Portugal        | 1.94 € |
-| 8    | Italy           | 1.95 € |
-| 9    | Belgium         | 1.85 € |
-| 10   | Latvia          | 1.88 € |
-| 11   | Ireland         | 1.84 € |
-| 12   | Romania         | 1.84 € |
-| 13   | Estonia         | 1.81 € |
-| 14   | Lithuania       | 1.79 € |
-| 15   | Slovakia        | 1.74 € |
-| 16   | Austria         | 1.74 € |
-| 17   | Slovenia        | 1.72 € |
-| 18   | Czech Republic  | 1.72 € |
-| 19   | Luxembourg      | 1.70 € |
-| 20   | Croatia         | 1.70 € |
-| 21   | Hungary         | 1.69 € |
-| 22   | Sweden          | 1.61 € |
-| 23   | Cyprus          | 1.61 € |
-| 24   | Spain           | 1.55 € |
-| 25   | Bulgaria        | 1.53 € |
-| 26   | Poland          | 1.42 € |
-| 27   | Malta           | 1.34 € |
-
-
+| 1    | Denmark         | €2,39 |
+| 2    | Netherlands     | €2,30 |
+| 3    | Finland         | €2,20 |
+| 4    | Greece          | €2,06 |
+| 5    | France          | €2,06 |
+| 6    | Germany         | €1,96 |
+| 7    | Portugal        | €1,94 |
+| 8    | Italy           | €1,95 |
+| 9    | Belgium         | €1,85 |
+| 10   | Latvia          | €1,88 |
+| 11   | Ireland         | €1,84 |
+| 12   | Romania         | €1,84 |
+| 13   | Estonia         | €1,81 |
+| 14   | Lithuania       | €1,79 |
+| 15   | Slovakia        | €1,74 |
+| 16   | Austria         | €1,74 |
+| 17   | Slovenia        | €1,72 |
+| 18   | Czech Republic  | €1,72 |
+| 19   | Luxembourg      | €1,70 |
+| 20   | Croatia         | €1,70 |
+| 21   | Hungary         | €1,69 |
+| 22   | Sweden          | €1,61 |
+| 23   | Cyprus          | €1,61 |
+| 24   | Spain           | €1,55 |
+| 25   | Bulgaria        | €1,53 |
+| 26   | Poland          | €1,42 |
+| 27   | Malta           | €1,34 |
 
 ### 🚗 EU Diesel Prices (€/L)
 
 | Rank | Country         | Price |
 |------|-----------------|-------|
-| 1    | Finland         | 2.30 € |
-| 2    | Netherlands     | 2.16 € |
-| 3    | Denmark         | 2.11 € |
-| 4    | Belgium         | 2.08 € |
-| 5    | France          | 2.04 € |
-| 6    | Italy           | 2.02 € |
-| 7    | Ireland         | 1.92 € |
-| 8    | Lithuania       | 1.88 € |
-| 9    | Portugal        | 1.87 € |
-| 10   | Germany         | 1.86 € |
-| 11   | Austria         | 1.83 € |
-| 12   | Latvia          | 1.82 € |
-| 13   | Sweden          | 1.82 € |
-| 14   | Romania         | 1.80 € |
-| 15   | Estonia         | 1.80 € |
-| 16   | Cyprus          | 1.80 € |
-| 17   | Croatia         | 1.79 € |
-| 18   | Slovenia        | 1.76 € |
-| 19   | Hungary         | 1.75 € |
-| 20   | Greece          | 1.74 € |
-| 21   | Luxembourg      | 1.73 € |
-| 22   | Bulgaria        | 1.71 € |
-| 23   | Spain           | 1.65 € |
-| 24   | Czech Republic  | 1.58 € |
-| 25   | Slovakia        | 1.65 € |
-| 26   | Poland          | 1.47 € |
-| 27   | Malta           | 1.21 € |
-
+| 1    | Finland         | €2,30 |
+| 2    | Netherlands     | €2,16 |
+| 3    | Denmark         | €2,11 |
+| 4    | Belgium         | €2,08 |
+| 5    | France          | €2,04 |
+| 6    | Italy           | €2,02 |
+| 7    | Ireland         | €1,92 |
+| 8    | Lithuania       | €1,88 |
+| 9    | Portugal        | €1,87 |
+| 10   | Germany         | €1,86 |
+| 11   | Austria         | €1,83 |
+| 12   | Latvia          | €1,82 |
+| 13   | Sweden          | €1,82 |
+| 14   | Romania         | €1,80 |
+| 15   | Estonia         | €1,80 |
+| 16   | Cyprus          | €1,80 |
+| 17   | Croatia         | €1,79 |
+| 18   | Slovenia        | €1,76 |
+| 19   | Hungary         | €1,75 |
+| 20   | Greece          | €1,74 |
+| 21   | Luxembourg      | €1,73 |
+| 22   | Bulgaria        | €1,71 |
+| 23   | Spain           | €1,65 |
+| 24   | Czech Republic  | €1,58 |
+| 25   | Slovakia        | €1,65 |
+| 26   | Poland          | €1,47 |
+| 27   | Malta           | €1,21 |
 
 
 ### 🧾 EU VAT Rates
