@@ -175,7 +175,7 @@ The dashboard clearly visualizes the impact of:
 
 <br>
 
-#### **3. VAT and Tax Disparities**
+#### **3. VAT and Other Taxes Disparities**
 
 **VAT Rates:**
 | Rank | Country | VAT Rate |
