@@ -166,11 +166,12 @@ The dashboard clearly visualizes the impact of:
 
 <br>
 
-**Key Observations:**
-- **Malta** has the cheapest fuel prices in the EU
-- **Average EU Euro-Super 95 price**: €1.85/liter (up €0.25 from 1 year ago)
-- **Average EU Diesel price**: €1.84/liter (up €0.36 from 1 year ago)
-- **Finland** saw the largest increases in both Euro-super 95 (+€0.52/liter) and diesel (+€0.72/liter) prices over the past year.
+**Key Observations about Fuel Prices (as of June 1, 2026):**
+  1. **Denmark, Finland, and the Netherlands** top the ranking of countries where fuel is most expensive in the European Union.
+  2. Finland saw **the largest increases** in both Euro-super 95 (+€0.52/liter) and diesel (+€0.72/liter) prices over the past year.
+  3. **Malta** has the cheapest fuel prices in the EU
+  4. Average EU Euro-Super 95 price: **€1.85/liter** (up €0.25 from 1 year ago)
+  5. Average EU Diesel price: **€1.84/liter** (up €0.36 from 1 year ago)
 
 <br>
 
@@ -187,6 +188,14 @@ The dashboard clearly visualizes the impact of:
 | | Luxembourg | 17% |
 | | Malta | 18% |
 | | Cyprus, Germany | 19% |
+
+<br>
+
+**Key Observations about VAT and Other Taxes (as of June 1, 2026):**
+  1. The Nordic countries (Finland, Sweden, and Denmark), along with Hungary and Croatia, have **the highest VAT rates** on fuel.
+  2. The total of excise duties and other taxes on **Euro-Super 95** ranges from **€0.85 per litre in the Netherlands** to €0.19 per liter in Bulgaria.
+  3. The total of excise duties and other taxes on **Diesel** ranges from €0.61 per liter in France to €0.17 per liter in Bulgaria.
+  4. **Bulgaria, Sweden, Poland, and Spain** have opted for comparatively low excises and “Other Taxes” compared to other EU countries.
 
 <br>
 
