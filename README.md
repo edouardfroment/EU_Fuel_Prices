@@ -191,7 +191,7 @@ The dashboard clearly visualizes the impact of:
 
 <br>
 
-**Key Observations about VAT and Other Taxes (as of June 1, 2026):**
+**Key Observations about VAT, Excises and Other Taxes (as of June 1, 2026):**
   1. The Nordic countries (Finland, Sweden, and Denmark), along with Hungary and Croatia, have **the highest VAT rates** on fuel.
   2. The total of excise duties and other taxes on **Euro-Super 95** ranges from **€0.85 per litre in the Netherlands** to €0.19 per liter in Bulgaria.
   3. The total of excise duties and other taxes on **Diesel** ranges from €0.61 per liter in France to €0.17 per liter in Bulgaria.
