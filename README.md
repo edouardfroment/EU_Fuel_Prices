@@ -81,6 +81,8 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 
 2. **Storage in LakeHouse**:
    - Data is loaded into **LakeHouse tables** in Microsoft Fabric
+   <br>
+   <img src="screenshots/fabric/Tables.png" alt="Automation in Fabric" width="100%"/>
 
 3. **Automation**:
    - **Weekly pipeline** that automatically runs both Python scripts
@@ -206,6 +208,7 @@ Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable 
 
 <img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="100%"/>
 
+---
 
 ## 📁 GitHub Structure
 
