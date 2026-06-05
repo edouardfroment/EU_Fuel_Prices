@@ -1,0 +1,333 @@
+# EU Fuel Prices Analysis Dashboard
+
+*A Power BI dashboard analyzing fuel prices (Euro-Super 95 and Diesel) across European Union countries, with tax breakdowns, historical trends since 2005, and geopolitical impact visualization. Built with Microsoft Fabric for automated weekly data updates from the European Commission.*
+
+
+## 🎥 Demo
+
+<video src="https://github.com/user-attachments/assets/72788495-4b87-4a09-907f-77829c1f8147.mp4" controls autoplay loop muted width="100%">
+  Votre navigateur ne supporte pas la lecture de cette vidéo.
+</video>
+
+---
+
+## 📌 Project Overview
+
+This project provides a **comprehensive analysis** of fuel prices across the European Union, focusing on:
+- **Price comparisons** between EU countries for Euro-Super 95 and Diesel
+- **Tax breakdowns** (VAT, excise duties, other taxes)
+- **Historical trends** since 2005
+- **Geopolitical impact** visualization (Ukraine war, Hormuz Strait blockade)
+- **Weekly automated data updates**
+
+The solution leverages **Microsoft Fabric** for data ingestion, transformation, and storage, with **Power BI** for visualization and dashboard creation.
+
+---
+
+## 📊 Power BI Dashboard Pages
+
+### **Page 1: EU Petrol Prices - Euro-Super 95**
+- **Filled Map** showing Euro-Super 95 price differences across EU countries
+- **Top 5 most expensive** and **top 5 cheapest** countries (price in €/liter)
+- **Historical trend** of average Euro-Super 95 price in EU since 2005 (with historical context tooltips)
+- **Current average Euro-Super 95 price** in EU (price in €/liter)
+- **1-year evolution** of Euro-Super 95 prices (price in €/liter)
+
+<img src="screenshots/power_bi/EuroSuper95.png" alt="Euro-Super 95 page" width="100%"/>
+
+---
+
+### **Page 2: EU Diesel Prices**
+- **Filled Map** showing Diesel price differences across EU countries (price in €/liter)
+- **Top 5 most expensive** and **top 5 cheapest** countries (price in €/liter)
+- **Historical trend** of average Diesel price in EU since 2005 (with historical context tooltips)
+- **Current average Diesel price** in EU (price in €/liter)
+- **1-year evolution** of Diesel prices (price in €/liter)
+
+<img src="screenshots/power_bi/Diesel.png" alt="Diesel page" width="100%"/>
+
+---
+### **Page 3: EU Fuel Taxes**
+- **Filled Map** showing VAT differences across EU countries
+- **Top 5 highest VAT** and **top 5 lowest VAT** countries
+- **Table** displaying excise duties and other taxes for Euro-Super 95 and Diesel (price in €/liter)
+
+<img src="screenshots/power_bi/Taxes.png" alt="Taxes page" width="100%"/>
+
+---
+### **Page 4: Country View**
+- **Dropdown menu** to select any EU country
+- **Card** showing the selected country's VAT rate
+- **Azure Map** of the selected country
+- **Data cards** showing Euro-Super 95 and Diesel prices for the selected country
+
+<img src="screenshots/power_bi/CountryViewSweden.png" alt="Country View page page" width="100%"/>
+
+---
+### **Page 5: Overall Ranking**
+- **Complete ranking** of EU countries by Euro-Super 95 price (€/liter)
+- **Complete ranking** of EU countries by Diesel price (€/liter)
+- **Complete ranking** of EU countries by fuel VAT rate
+
+<img src="screenshots/power_bi/OverallRanking1.png" alt="Overall Ranking Page" width="100%"/>
+
+[To view the complete ranking directly, you can also click here](#-overall-ranking---june-1st-2026)
+
+---
+
+## ⚙️ Technical Implementation
+<p align="left" style="line-height: 20px;">
+  <img src="screenshots/fabric/Fabric.png" width="20" style="vertical-align: middle;" />
+  The project was developed entirely in <strong>Microsoft Fabric</strong> and <strong>Power BI</strong> (no VS Code used). Here's the technical architecture:
+</p>
+
+### **Data Pipeline**
+1. **Python Notebooks** in Microsoft Fabric:
+   - `EU_Fuel_Price_ETL.ipynb` - Extracts, cleans and transforms Euro-Super 95 and Diesel prices data from the European Commission's website.
+   - `Taxes.ipynb` - Extracts, cleans and transforms Taxes data from the European Commission's website.
+
+2. **Storage in LakeHouse**:
+   - Data is loaded into **LakeHouse tables** in Microsoft Fabric
+   <br>
+   <img src="screenshots/fabric/Tables.png" alt="Automation in Fabric" width="100%"/>
+
+3. **Automation**:
+   - **Weekly pipeline** that automatically runs both Python scripts
+   - **Email notifications** sent upon successful completion
+   <br>
+   <img src="screenshots/fabric/Pipeline.png" alt="Automation in Fabric" width="500"/>
+
+4. **Visualization**:
+
+   - Power BI dashboard **connected directly to Lakehouse tables**
+   <br>
+   <img src="screenshots/power_bi/Get_Data.png" alt="Connection between Power BI and the Lakehouse" width="500"/>
+   <br><br>
+   
+   - **Model View & DAX measures** created in Power BI Desktop
+   <br>
+   <img src="screenshots/power_bi/Model_View.png" alt="Model View in Power BI Desktop" width="100%"/>
+   <br><br>
+
+   - Published to **Power BI Service** (visible in Microsoft Fabric workspace)
+   <br>
+   <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="700"/>
+   <br>
+
+---
+
+## 🔍 Key Insights (as of June 1, 2026)
+
+### 💰 Fuel Price Composition in the EU
+
+Understanding the price composition is essential to interpret the data correctly. In the European Union, fuel prices are composed of four main elements:
+
+1. **Product Cost** (crude oil price, refining, transport)
+2. **Distribution Margins** (storage, logistics, service station operations)
+3. **Excise Duties and Other Taxes** (specific taxes per liter, sometimes including environmental taxes)
+4. **VAT** (applied to the tax-exclusive price, often including excise duties)
+<br><br>
+### **Main Insights**
+
+#### **1. Geopolitical Impact**
+The dashboard clearly visualizes the impact of:
+- **Ukraine war** (since 2022) on fuel prices across the EU
+- **Hormuz Strait blockade** (since March 2026) on recent price increases
+
+<img src="screenshots/power_bi/PetrolPricesOverTime.png" alt="Petrol Prices Over Time" width="600"/><br>
+<sub><i>Graph showing the price history of Petrol (Euro-Super 95) since 2005. Key events are highlighted on the chart.</i></sub>
+
+<br>
+
+<img src="screenshots/power_bi/PetrolPricesOverTime2.png" alt="Focus Mode" width="100%"/><br>
+<sub><i>The same graph in Focus Mode. The tooltip displays the Euro-Super 95 price along with geopolitical context.</i></sub>
+
+
+#### **2. Price Disparities Between EU Countries**
+
+**Euro-Super 95 Prices (€/liter):**
+| Rank | Country | Price |
+|------|---------|-------|
+| **Most Expensive** | Denmark | €2.39 |
+| | Netherlands | €2.30 |
+| | Finland | €2.20 |
+| | Greece | €2.06 |
+| | France | €2.06 |
+| **Cheapest** | Malta | €1.34 |
+| | Poland | €1.42 |
+| | Bulgaria | €1.53 |
+| | Spain | €1.55 |
+| | Cyprus | €1.61 |
+
+**Diesel Prices (€/liter):**
+| Rank | Country | Price |
+|------|---------|-------|
+| **Most Expensive** | Finland | €2.30 |
+| | Netherlands | €2.16 |
+| | Denmark | €2.11 |
+| | Belgium | €2.08 |
+| | France | €2.04 |
+| **Cheapest** | Malta | €1.21 |
+| | Poland | €1.47 |
+| | Czech Republic | €1.58 |
+| | Slovakia | €1.65 |
+| | Spain | €1.65 |
+
+<br>
+
+**Key Observations about Fuel Prices (as of June 1, 2026):**
+  1. **Denmark, Finland, and the Netherlands** top the ranking of countries where fuel is most expensive in the European Union.
+  2. Finland saw **the largest increases** in both Euro-super 95 (+€0.52/liter) and diesel (+€0.72/liter) prices over the past year.
+  3. **Malta** has the cheapest fuel prices in the EU
+  4. Average EU Euro-Super 95 price: **€1.85/liter** (up €0.25 from 1 year ago)
+  5. Average EU Diesel price: **€1.84/liter** (up €0.36 from 1 year ago)
+
+<br>
+
+#### **3. VAT, Excises and Other Taxes Disparities**
+
+**VAT Rates:**
+| Rank | Country | VAT Rate |
+|------|---------|----------|
+| **Highest VAT** | Hungary | 27% |
+| | Finland | 25.5% |
+| | Croatia, Denmark, Sweden | 25% |
+| **Lowest VAT** | Poland | 8% |
+| | Spain | 10% |
+| | Luxembourg | 17% |
+| | Malta | 18% |
+| | Cyprus, Germany | 19% |
+
+<br>
+
+**Key Observations about VAT, Excises and Other Taxes (as of June 1, 2026):**
+  1. The Nordic countries (Finland, Sweden, and Denmark), along with Hungary and Croatia, have **the highest VAT rates** on fuel.
+  2. The total of excise duties and other taxes on **Euro-Super 95** ranges from **€0.85 per litre in the Netherlands** to €0.19 per liter in Bulgaria.
+  3. The total of excise duties and other taxes on **Diesel** ranges from €0.61 per liter in France to €0.17 per liter in Bulgaria.
+  4. **Bulgaria, Sweden, Poland, and Spain** have opted for comparatively low excises and “Other Taxes” compared to other EU countries.
+
+<br>
+
+**Interesting Case - Hungary:**
+Despite having the **highest VAT (27%)**, Hungary shows relatively **reasonable fuel prices** (Euro-Super 95: €1.69/liter, Diesel: €1.75/liter) compared to other EU countries. The reasons for this particular case need to be investigated.
+
+<br>
+
+<img src="screenshots/power_bi/CountryViewHungary.png" alt="Country View: Hungary" width="100%"/>
+
+---
+
+## 📁 GitHub Structure
+
+```bash
+EU_Fuel_Prices/
+├── notebooks/             # Python notebooks for data extraction
+│   ├── EU_Fuel_Price_ETL
+│   └── Taxes
+├── screenshots/
+│   └── power_bi/           # Power BI dashboard screenshots
+│   └── fabric/            # Microsoft Fabric screenshots
+└── README.md
+
+```
+
+---
+
+## 🏆 Overall Ranking - June 1st, 2026
+
+### ⛽ EU Petrol Euro-Super 95 Prices (€/L)
+
+| Rank | Country         | Price |
+|------|-----------------|-------|
+| 1    | Denmark         | €2,39 |
+| 2    | Netherlands     | €2,30 |
+| 3    | Finland         | €2,20 |
+| 4    | Greece          | €2,06 |
+| 5    | France          | €2,06 |
+| 6    | Germany         | €1,96 |
+| 7    | Portugal        | €1,94 |
+| 8    | Italy           | €1,95 |
+| 9    | Belgium         | €1,85 |
+| 10   | Latvia          | €1,88 |
+| 11   | Ireland         | €1,84 |
+| 12   | Romania         | €1,84 |
+| 13   | Estonia         | €1,81 |
+| 14   | Lithuania       | €1,79 |
+| 15   | Slovakia        | €1,74 |
+| 16   | Austria         | €1,74 |
+| 17   | Slovenia        | €1,72 |
+| 18   | Czech Republic  | €1,72 |
+| 19   | Luxembourg      | €1,70 |
+| 20   | Croatia         | €1,70 |
+| 21   | Hungary         | €1,69 |
+| 22   | Sweden          | €1,61 |
+| 23   | Cyprus          | €1,61 |
+| 24   | Spain           | €1,55 |
+| 25   | Bulgaria        | €1,53 |
+| 26   | Poland          | €1,42 |
+| 27   | Malta           | €1,34 |
+
+### 🚗 EU Diesel Prices (€/L)
+
+| Rank | Country         | Price |
+|------|-----------------|-------|
+| 1    | Finland         | €2,30 |
+| 2    | Netherlands     | €2,16 |
+| 3    | Denmark         | €2,11 |
+| 4    | Belgium         | €2,08 |
+| 5    | France          | €2,04 |
+| 6    | Italy           | €2,02 |
+| 7    | Ireland         | €1,92 |
+| 8    | Lithuania       | €1,88 |
+| 9    | Portugal        | €1,87 |
+| 10   | Germany         | €1,86 |
+| 11   | Austria         | €1,83 |
+| 12   | Latvia          | €1,82 |
+| 13   | Sweden          | €1,82 |
+| 14   | Romania         | €1,80 |
+| 15   | Estonia         | €1,80 |
+| 16   | Cyprus          | €1,80 |
+| 17   | Croatia         | €1,79 |
+| 18   | Slovenia        | €1,76 |
+| 19   | Hungary         | €1,75 |
+| 20   | Greece          | €1,74 |
+| 21   | Luxembourg      | €1,73 |
+| 22   | Bulgaria        | €1,71 |
+| 23   | Spain           | €1,65 |
+| 24   | Czech Republic  | €1,58 |
+| 25   | Slovakia        | €1,65 |
+| 26   | Poland          | €1,47 |
+| 27   | Malta           | €1,21 |
+
+
+### 🧾 EU VAT Rates
+
+| Rank | Country         | VAT Rate |
+|------|-----------------|----------|
+| 1    | Hungary         | 27.0% |
+| 2    | Finland         | 25.5% |
+| 3    | Croatia         | 25.0% |
+| 4    | Denmark         | 25.0% |
+| 5    | Sweden          | 25.0% |
+| 6    | Greece          | 24.0% |
+| 7    | Ireland         | 23.0% |
+| 8    | Portugal        | 23.0% |
+| 9    | Slovakia        | 23.0% |
+| 10   | Estonia         | 22.0% |
+| 11   | Italy           | 22.0% |
+| 12   | Slovenia        | 22.0% |
+| 13   | Belgium         | 21.0% |
+| 14   | Czech Republic  | 21.0% |
+| 15   | Latvia          | 21.0% |
+| 16   | Lithuania       | 21.0% |
+| 17   | Netherlands     | 21.0% |
+| 18   | Romania         | 21.0% |
+| 19   | Austria         | 20.0% |
+| 20   | Bulgaria        | 20.0% |
+| 21   | France          | 20.0% |
+| 22   | Cyprus          | 19.0% |
+| 23   | Germany         | 19.0% |
+| 24   | Malta           | 18.0% |
+| 25   | Luxembourg      | 17.0% |
+| 26   | Spain           | 10.0% |
+| 27   | Poland          | 8.0% |
