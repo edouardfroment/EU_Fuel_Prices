@@ -69,7 +69,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 - **Complete ranking** of EU countries by Diesel price (€/liter)
 - **Complete ranking** of EU countries by fuel VAT rate
 
-<img src="screenshots/power_bi/OverallRanking1.png" alt="Overall Ranking Page" width="100%"/>
+<img src="screenshots/power_bi/OverallRanking.png" alt="Overall Ranking Page" width="100%"/>
 
 [To view the complete ranking directly, you can also click here](#-overall-ranking---june-1st-2026)
 
