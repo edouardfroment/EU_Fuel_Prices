@@ -87,7 +87,7 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
    - `Taxes.ipynb` - Extracts, cleans and transforms Taxes data from the European Commission's website.
 
 2. **Storage in LakeHouse**:
-   - Data is loaded into **LakeHouse tables** in Microsoft Fabric
+   - Data is loaded into **Lakehouse tables** in Microsoft Fabric
    <br>
    <img src="screenshots/fabric/Tables.png" alt="Automation in Fabric" width="100%"/>
 
@@ -131,8 +131,8 @@ Understanding the price composition is essential to interpret the data correctly
 
 #### **1. Geopolitical Impact**
 The dashboard clearly visualizes the impact of:
-- **Ukraine war** (since 2022) on fuel prices across the EU
-- **Hormuz Strait blockade** (since March 2026) on recent price increases
+   - **Ukraine war** (since 2022) on fuel prices across the EU
+   - **Hormuz Strait blockade** (since March 2026) on recent price increases
 
 <img src="screenshots/power_bi/PetrolPricesOverTime.png" alt="Petrol Prices Over Time" width="600"/><br>
 <sub><i>Graph showing the price history of Petrol (Euro-Super 95) since 2005. Key events are highlighted on the chart.</i></sub>
