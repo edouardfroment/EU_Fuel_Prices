@@ -83,34 +83,30 @@ The solution leverages **Microsoft Fabric** for data ingestion, transformation, 
 
 ### **Data Pipeline**
 1. **Python Notebooks** in Microsoft Fabric:
-   - `EU_Fuel_Price_ETL.ipynb` - Extracts, cleans and transforms Euro-Super 95 and Diesel prices data from the European Commission's website.
-   - `Taxes.ipynb` - Extracts, cleans and transforms Taxes data from the European Commission's website.
+  - `EU_Fuel_Price_ETL.ipynb` - Extracts, cleans and transforms Euro-Super 95 and Diesel prices data from the European Commission's website.
+  - `Taxes.ipynb` - Extracts, cleans and transforms Taxes data from the European Commission's website.
+<br>
 
-2. **Storage in LakeHouse**:
-   - Data is loaded into **Lakehouse tables** in Microsoft Fabric
-   <br>
+2. **Storage in the Lakehouse**:
+  - Data is loaded into **Lakehouse tables** in Microsoft Fabric
    <img src="screenshots/fabric/Tables.png" alt="Automation in Fabric" width="100%"/>
 
 3. **Automation**:
-   - **Weekly pipeline** that automatically runs both Python scripts
-   - **Email notifications** sent upon successful completion
-   <br>
+  - **Weekly pipeline** that automatically runs both Python scripts
+  - **Email notifications** sent upon successful completion
    <img src="screenshots/fabric/Pipeline.png" alt="Automation in Fabric" width="500"/>
 
 4. **Visualization**:
 
-   - Power BI dashboard **connected directly to Lakehouse tables**
-   <br>
+  - Power BI dashboard **connected directly to Lakehouse tables**
    <img src="screenshots/power_bi/Get_Data.png" alt="Connection between Power BI and the Lakehouse" width="500"/>
-   <br><br>
+   <br>
    
-   - **Model View & DAX measures** created in Power BI Desktop
-   <br>
+  - **Model View & DAX measures** created in Power BI Desktop
    <img src="screenshots/power_bi/Model_View.png" alt="Model View in Power BI Desktop" width="100%"/>
-   <br><br>
-
-   - Published to **Power BI Service** (visible in Microsoft Fabric workspace)
    <br>
+
+  - Published to **Power BI Service** (visible in Microsoft Fabric workspace)
    <img src="screenshots/fabric/WorkSpace.png" alt="WorkSpace in Fabric" width="700"/>
    <br>
 
