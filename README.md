@@ -5,7 +5,7 @@
 
 ## 🎥 Demo
 
-<video src="https://github.com/user-attachments/assets/b0e337ad-ddbd-4caa-914f-fe6a80bb5c5c" controls autoplay loop muted width="100%">
+<video src="https://github.com/user-attachments/assets/7404f494-21b4-4ea4-ba4c-2ca12cb0939b" controls autoplay loop muted width="100%">
   Votre navigateur ne supporte pas la lecture de cette vidéo.
 </video>
 
