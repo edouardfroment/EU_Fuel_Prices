@@ -225,7 +225,7 @@ EU_Fuel_Prices/
 │   ├── EU_Fuel_Price_ETL
 │   └── Taxes
 ├── screenshots/
-│   └── power_bi/           # Power BI dashboard screenshots
+│   └── power_bi/          # Power BI dashboard screenshots
 │   └── fabric/            # Microsoft Fabric screenshots
 └── README.md
 
