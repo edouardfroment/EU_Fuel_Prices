@@ -290,8 +290,8 @@ EU_Fuel_Prices/
 | 21   | Luxembourg      | €1,73 |
 | 22   | Bulgaria        | €1,71 |
 | 23   | Spain           | €1,65 |
-| 24   | Czech Republic  | €1,58 |
-| 25   | Slovakia        | €1,65 |
+| 24   | Slovakia        | €1,65 |
+| 25   | Czech Republic  | €1,58 |
 | 26   | Poland          | €1,47 |
 | 27   | Malta           | €1,21 |
 
